@@ -1,6 +1,6 @@
 # dynamo-local-admin
 
-This project builds a Docker image with [DynamoDB Local](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html) and [dynamo-admin](https://github.com/aaronshaf/dynamodb-admin) installed and hooked up.
+This project builds a Docker image with [DynamoDB Local](http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html) and [dynamodb-admin](https://github.com/aaronshaf/dynamodb-admin) installed and hooked up.
 
 ## Usage
 
