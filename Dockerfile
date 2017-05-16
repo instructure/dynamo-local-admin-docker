@@ -50,7 +50,7 @@ RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-
 RUN npm install -g dynamodb-admin
 
 RUN cd /usr/lib && \
-    curl -L http://dynamodb-local.s3-website-us-west-2.amazonaws.com/dynamodb_local_latest | tar xz
+    curl -L https://s3-us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.tar.gz | tar xz
 RUN mkdir -p /var/lib/dynamodb
 VOLUME /var/lib/dynamodb
 
